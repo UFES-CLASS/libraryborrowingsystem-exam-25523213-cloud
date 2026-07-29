@@ -28,7 +28,7 @@ public class Librarian extends Person {
     public Librarian(String librarianId, String name) {
         super(librarianId, name);
     }
-    
+
     @Override
     public String getInfo() { return "Librarian[" + id + "] " + name; }
 
